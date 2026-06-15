@@ -56,7 +56,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between relative py-2 md:py-0">
+        <div className="flex items-center justify-between relative py-5 md:py-0">
 
           {/* ── MOBILE: espaçador esquerdo (equilibra o botão hambúrguer) ── */}
           <div className="md:hidden w-10 h-10 flex-shrink-0" />
@@ -70,7 +70,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
               src={logo}
               alt="FalconTech Rastreadores"
               className={`h-auto object-contain transition-all duration-300 group-hover:scale-[1.02] ${
-                scrolled ? 'w-36 sm:w-44' : 'w-44 sm:w-52'
+                scrolled ? 'w-28 sm:w-36' : 'w-36 sm:w-44'
               }`}
             />
           </div>

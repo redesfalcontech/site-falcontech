@@ -69,7 +69,7 @@ export default function App() {
       {/* Hero Section */}
       <section 
         id="home" 
-        className="relative pt-32 pb-12 sm:pt-40 sm:pb-16 lg:pt-48 lg:pb-20 flex items-center overflow-hidden"
+        className="relative pt-36 pb-12 sm:pt-40 sm:pb-16 lg:pt-48 lg:pb-20 flex items-center overflow-hidden"
       >
         {/* Full Background Image */}
         <div className="absolute inset-0 z-0 pointer-events-none">
