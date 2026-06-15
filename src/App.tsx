@@ -87,7 +87,7 @@ export default function App() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full flex justify-start">
-          <div className="max-w-3xl space-y-6 sm:space-y-8 py-4 md:py-6">
+          <div className="max-w-3xl lg:max-w-[42%] space-y-6 sm:space-y-8 py-4 md:py-6">
             
             <div className="space-y-5">
               <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-[54px] text-white tracking-normal leading-[1.1] uppercase">
