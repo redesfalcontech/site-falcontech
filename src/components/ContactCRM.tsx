@@ -178,11 +178,9 @@ export default function ContactCRM() {
               href={directWpLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full max-w-sm py-4.5 px-7 rounded-full bg-gradient-to-b from-[#00b050] via-[#009b44] to-[#008035] hover:brightness-110 text-white font-black text-base sm:text-lg tracking-widest flex items-center justify-center gap-3.5 border-2 border-green-600/50 shadow-[0_12px_35px_rgba(0,168,89,0.35)] active:scale-[0.98] transition-all cursor-pointer uppercase text-shadow-sm select-none"
+              className="btn-whatsapp-3d w-full max-w-sm py-4 px-7 hover:text-white"
             >
-              <div className="bg-white text-[#009b44] p-1.5 rounded-full flex items-center justify-center">
-                <MessageCircle className="w-5 h-5 text-[#009b44] fill-[#009b44]" />
-              </div>
+              <MessageCircle className="w-5 h-5 text-white fill-white/20" strokeWidth={2.2} />
               <span>FALAR NO WHATSAPP</span>
             </a>
 

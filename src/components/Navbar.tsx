@@ -151,11 +151,11 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
               href="https://api.whatsapp.com/send?phone=5561994413422&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20rastreamento%20da%20Falcontech!"
               target="_blank"
               rel="noreferrer noopener"
-              className="relative overflow-hidden group px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 font-bold text-sm text-zinc-950 shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/25 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2 cursor-pointer"
+              className="btn-whatsapp-3d-sm px-4 py-2.5 text-[13px] hover:text-white"
             >
-              <MessageCircle className="w-4 h-4 text-zinc-950 fill-zinc-950/10 animate-pulse" />
+              <MessageCircle className="w-4 h-4 text-white fill-white/10" strokeWidth={2.2} />
               <span>Falar no WhatsApp</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-3.5 h-3.5 text-white" />
             </a>
           </div>
 
@@ -209,9 +209,9 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
                   href="https://api.whatsapp.com/send?phone=5561994413422&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20rastreamento%20da%20Falcontech!"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-500 font-bold text-zinc-950 text-base hover:bg-emerald-400 transition-colors cursor-pointer"
+                  className="btn-whatsapp-3d-sm w-full py-2.5 px-4 text-base hover:text-white"
                 >
-                  <MessageCircle className="w-4 h-4 text-zinc-950 fill-zinc-950/20" />
+                  <MessageCircle className="w-4 h-4 text-white fill-white/10" strokeWidth={2.2} />
                   <span>Falar no WhatsApp</span>
                 </a>
               </div>

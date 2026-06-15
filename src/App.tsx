@@ -126,9 +126,9 @@ export default function App() {
                 href="https://api.whatsapp.com/send?phone=5561994413422&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20rastreamento%20da%20Falcontech!"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-500 hover:to-emerald-400 text-white font-black text-sm tracking-widest uppercase hover:scale-[1.03] active:scale-[0.98] shadow-lg shadow-green-500/20 hover:shadow-green-500/40 border-2 border-emerald-400/20 transition-all items-center justify-center gap-2.5 cursor-pointer"
+                className="btn-whatsapp-3d px-8 py-4 text-white hover:text-white"
               >
-                <MessageCircle className="w-5 h-5 text-white fill-white/10" />
+                <MessageCircle className="w-5 h-5 text-white fill-white/20" strokeWidth={2} />
                 <span>FALAR NO WHATSAPP</span>
               </a>
             </div>
@@ -210,13 +210,13 @@ export default function App() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar no WhatsApp"
-        className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#00cc00] text-zinc-950 shadow-[0_4px_20px_rgba(0,204,0,0.3)] hover:shadow-[0_4px_30px_rgba(0,204,0,0.5)] hover:scale-105 active:scale-95 hover:bg-[#10e010] transition-all duration-300 group"
+        className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-15 h-15 rounded-full bg-gradient-to-b from-[#00e600] to-[#009900] border-t border-white/40 border-b-[4px] border-[#007700] shadow-[0_8px_30px_rgba(0,204,0,0.4)] hover:brightness-110 hover:-translate-y-[2px] hover:border-b-[6px] active:translate-y-[2px] active:border-b-[2px] transition-all duration-200 group"
       >
         {/* Dual pulsing outer wave rings matching brand color */}
-        <span className="absolute inset-0 rounded-full bg-[#00cc00]/40 animate-ping pointer-events-none" />
+        <span className="absolute inset-0 rounded-full bg-[#00cc00]/30 animate-ping pointer-events-none" />
         
         {/* Solid brand color matching WhatsApp icon layout */}
-        <MessageCircle className="w-7 h-7 fill-zinc-950 text-zinc-950 group-hover:rotate-12 transition-transform duration-300 relative z-10" />
+        <MessageCircle className="w-7 h-7 fill-white text-white group-hover:rotate-12 transition-transform duration-300 relative z-10" strokeWidth={2.2} />
 
         {/* Dynamic slide-in tooltip tag for engagement */}
         <span className="absolute right-16 scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-300 bg-zinc-950 text-[#00cc00] border border-[#00cc00]/25 text-xs font-bold px-3.5 py-1.5 rounded-lg whitespace-nowrap pointer-events-none shadow-xl">

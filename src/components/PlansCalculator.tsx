@@ -104,11 +104,9 @@ export default function PlansCalculator() {
                 href={getWhatsAppLink('Veículos Leves', 39.90)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-4.5 px-6 rounded-3xl bg-gradient-to-b from-green-600 via-green-600 to-emerald-700 hover:brightness-110 text-white font-black text-sm tracking-widest uppercase flex items-center justify-center gap-3.5 shadow-[0_12px_30px_rgba(16,185,129,0.25)] hover:shadow-[0_12px_35px_rgba(0,204,0,0.35)] active:scale-[0.98] transition-all cursor-pointer border border-[#00cc00]/25 text-shadow-sm"
+                className="btn-whatsapp-3d w-full py-4 px-6 hover:text-white"
               >
-                <div className="bg-white/10 p-1 rounded-full">
-                  <MessageCircle className="w-5 h-5 text-white fill-white/10" />
-                </div>
+                <MessageCircle className="w-5 h-5 text-white fill-white/20" strokeWidth={2.2} />
                 <span>WHATSAPP</span>
               </a>
             </div>
@@ -174,11 +172,9 @@ export default function PlansCalculator() {
                 href={getWhatsAppLink('Veículos Pesados', 49.90)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-4.5 px-6 rounded-3xl bg-gradient-to-b from-green-600 via-green-600 to-emerald-700 hover:brightness-110 text-white font-black text-sm tracking-widest uppercase flex items-center justify-center gap-3.5 shadow-[0_12px_30px_rgba(16,185,129,0.25)] hover:shadow-[0_12px_35px_rgba(0,204,0,0.35)] active:scale-[0.98] transition-all cursor-pointer border border-[#00cc00]/25 text-shadow-sm"
+                className="btn-whatsapp-3d w-full py-4 px-6 hover:text-white"
               >
-                <div className="bg-white/10 p-1 rounded-full">
-                  <MessageCircle className="w-5 h-5 text-white fill-white/10" />
-                </div>
+                <MessageCircle className="w-5 h-5 text-white fill-white/20" strokeWidth={2.2} />
                 <span>WHATSAPP</span>
               </a>
             </div>

@@ -61,3 +61,76 @@
 .animate-pulse-slow {
   animation: pulse-slow 4s infinite ease-in-out;
 }
+
+/* Premium 3D WhatsApp Button styling */
+.btn-whatsapp-3d {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff !important;
+  background: linear-gradient(to bottom, #00e600, #009900);
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid #006600;
+  border-radius: 9999px;
+  box-shadow: 0 8px 20px rgba(0, 204, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-whatsapp-3d:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+  border-bottom-width: 7px;
+  box-shadow: 0 10px 25px rgba(0, 204, 0, 0.45);
+}
+
+.btn-whatsapp-3d:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+  box-shadow: 0 2px 5px rgba(0, 204, 0, 0.2);
+}
+
+/* Small 3D WhatsApp Button for Header/Menus */
+.btn-whatsapp-3d-sm {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff !important;
+  background: linear-gradient(to bottom, #00e600, #009900);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 3.5px solid #006600;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 204, 0, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-whatsapp-3d-sm:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+  border-bottom-width: 4.5px;
+  box-shadow: 0 8px 18px rgba(0, 204, 0, 0.35);
+}
+
+.btn-whatsapp-3d-sm:active {
+  transform: translateY(2px);
+  border-bottom-width: 1.5px;
+  box-shadow: 0 2px 4px rgba(0, 204, 0, 0.15);
+}
+
