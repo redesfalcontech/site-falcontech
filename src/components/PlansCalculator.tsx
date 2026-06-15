@@ -13,7 +13,7 @@ export default function PlansCalculator() {
   };
 
   return (
-    <div id="plans" className="py-12 sm:py-16 bg-zinc-950 border-t border-b border-zinc-900 relative overflow-hidden">
+    <div id="plans" className="pt-12 sm:pt-16 pb-0 bg-zinc-950 border-t border-zinc-900 relative overflow-hidden">
       {/* Dynamic background accents */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,204,0,0.02),transparent_70%)] pointer-events-none" />
       
