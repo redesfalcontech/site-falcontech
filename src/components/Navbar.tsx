@@ -56,7 +56,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between relative">
+        <div className="flex items-center justify-between relative py-2 md:py-0">
 
           {/* ── MOBILE: espaçador esquerdo (equilibra o botão hambúrguer) ── */}
           <div className="md:hidden w-10 h-10 flex-shrink-0" />
